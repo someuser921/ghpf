@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodedByJohn — разработка ботов и веб-приложений</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content fade-in">
+        <span class="badge">Доступен для заказов</span>
+        <h1>Coded<span class="accent">By</span>John</h1>
+        <p class="hero-sub">Разрабатываю Telegram-боты и веб-приложения.<br>От идеи до готового продукта.</p>
+        <a href="https://t.me/codedbyjohn" class="btn-primary" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-1.97 9.289c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.932z"/></svg>
+          Написать в Telegram
+        </a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Услуги</span>
+        <h2>Что я делаю</h2>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Telegram-боты</h3>
+          <p>Боты любой сложности — приём оплаты, личный кабинет, FSM-сценарии, уведомления, интеграции с внешними сервисами. С красивым интерфейсом прямо внутри Telegram.</p>
+          <ul class="service-list">
+            <li>Боты с оплатой и подписками</li>
+            <li>Магазины и каталоги</li>
+            <li>Боты для бизнеса и автоматизации</li>
+            <li>Мини-приложения (Telegram Web App)</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Веб-приложения</h3>
+          <p>От лендинга до полноценного сервиса с базой данных, авторизацией и личным кабинетом. Адаптивно, быстро, без лишнего.</p>
+          <ul class="service-list">
+            <li>Лендинги и сайты-визитки</li>
+            <li>Небольшие интернет-магазины</li>
+            <li>Сервисы и веб-приложения</li>
+            <li>API и интеграции</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Проекты</span>
+        <h2>Что уже сделано</h2>
+      </div>
+
+      <div class="cards">
+
+        <!-- FastTG -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/fasttg.png" alt="FastTG" class="zoomable" />
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">aiogram</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">React</span>
+            </div>
+            <h3>FastTG</h3>
+            <p class="card-hook">Сайты заблокированы, VPN тормозит или стоит дорого?</p>
+            <p class="card-desc">Быстрый MTProxy прямо в Telegram — без приложений, без настроек. Вставил ссылку и работает.</p>
+            <ul class="card-features">
+              <li><span class="dot"></span>Подключение за 30 секунд</li>
+              <li><span class="dot"></span>Оплата и управление через бота</li>
+              <li><span class="dot"></span>Нет доступа к Telegram? Купить можно на сайте</li>
+              <li><span class="dot"></span>Без рекламы и спама</li>
+            </ul>
+            <div class="card-links">
+              <a href="https://get.freedomxz.xyz" class="btn-outline" target="_blank">Сайт</a>
+              <a href="https://t.me/buytgfastbot" class="btn-outline" target="_blank">Бот</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Автотека -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/autobook.png" alt="Автотека" class="zoomable" />
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">React</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <h3>Автотека</h3>
+            <p class="card-hook">Когда последний раз меняли масло? Сколько потратили на машину в этом году?</p>
+            <p class="card-desc">Личный цифровой журнал автомобиля — вся история обслуживания, расходы и заправки в одном месте.</p>
+            <ul class="card-features">
+              <li><span class="dot"></span>История всех ТО и ремонтов</li>
+              <li><span class="dot"></span>Статистика расходов</li>
+              <li><span class="dot"></span>Учёт заправок</li>
+              <li><span class="dot"></span>Фото чеков и документов</li>
+            </ul>
+            <div class="card-links">
+              <a href="https://auto.freedomxz.xyz" class="btn-outline" target="_blank">Открыть приложение</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Дневник головной боли -->
+        <div class="card fade-in">
+          <div class="card-image">
+            <img src="images/diary.png" alt="Дневник головной боли" class="zoomable" />
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">aiogram</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <h3>Дневник головной боли</h3>
+            <p class="card-hook">Врач спросил как часто болит голова — и вы не знаете что ответить?</p>
+            <p class="card-desc">Бот фиксирует каждый эпизод: интенсивность, симптомы, таблетки. Вся статистика всегда под рукой.</p>
+            <ul class="card-features">
+              <li><span class="dot"></span>Статистика и частота приступов</li>
+              <li><span class="dot"></span>Учёт принятых препаратов</li>
+              <li><span class="dot"></span>Напоминания</li>
+              <li><span class="dot"></span>Экспорт данных для врача</li>
+            </ul>
+            <div class="card-links">
+              <a href="https://t.me/headdiarybot" class="btn-outline" target="_blank">Открыть бота</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner fade-in">
+        <span class="section-label">Контакты</span>
+        <h2>Есть задача?</h2>
+        <p>Напишите — обсудим детали и сроки.</p>
+        <div class="contact-links">
+          <a href="https://t.me/codedbyjohn" class="btn-primary" target="_blank">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-1.97 9.289c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.932z"/></svg>
+            Telegram
+          </a>
+          <a href="mailto:hello@codedbyjohn.xyz" class="btn-ghost">
+            hello@codedbyjohn.xyz
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <span>© 2026 CodedByJohn</span>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-overlay" id="lightboxOverlay"></div>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="" />
+      <button class="lightbox-close" id="lightboxClose">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
